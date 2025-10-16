@@ -1,3 +1,5 @@
+// This solutions first collections the characters by groups. If braces are encountered, those will be considered as a single group. We keep the group sorted everytime
+// After we collect groups, we DFS and backtrack through them to collect each character at every level
 class Solution {
     List<String> response = new ArrayList();
     public String[] expand(String s) {
